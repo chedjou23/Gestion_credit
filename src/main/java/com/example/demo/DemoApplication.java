@@ -32,7 +32,7 @@ public class DemoApplication implements CommandLineRunner{
 			user.setPassword(new BCryptPasswordEncoder().encode("admin"));
 
 			userRepository.save(user);
-		}
+		}		
 	}
 
 }
